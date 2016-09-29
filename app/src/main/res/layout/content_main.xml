@@ -20,19 +20,19 @@
         android:layout_centerInParent="true"
         android:textStyle="bold"
         android:gravity="center"
-        android:text="15"
+        android:text="@string/font_size"
         android:textSize="@dimen/text_size_large"
         android:textAlignment="center"
         />
 
     <TextView
-        android:text="0"
+        android:text="@string/loop_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignEnd="@+id/counter"
         android:textSize="@dimen/text_size_small"
-        android:gravity="top|end"
-        android:id="@+id/loops" />
+        android:id="@+id/loops"
+        android:gravity="top|end" />
 
 </RelativeLayout>
